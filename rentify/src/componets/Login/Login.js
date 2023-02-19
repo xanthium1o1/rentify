@@ -23,7 +23,10 @@ const submitHandler = (event) =>{
 }
 
   return (
+    
+    
     <form className="login-form" onSubmit={submitHandler}>
+        <h1>Rentify Login</h1>
         <label id="username">username</label>
         <input value={username} htmlFor="username" type="text" onChange={usernameChangeHandler}/>
         <label id="password">password</label>
